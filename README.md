@@ -4,8 +4,8 @@ An optimized implementation of 2D matrix multiplication using **Shared Memory Ti
 
 ## 🚀 The Result
 
-* **Memory-Bound to Compute-Bound:** By leveraging on-chip Shared Memory as a software-managed cache, threads eliminate redundant, high-latency roundtrips to Global Memory.
-* **Scale Capability:** Dropped the sequential CPU baseline entirely because it stalls indefinitely at this scale. This optimized implementation handles massive scales—benchmarked at **16,384 × 16,384** matrix dimensions on a single commodity GPU.
+* **Memory-Bound to Compute-Bound:** By leveraging on-chip Shared Memory as a software managed cache, threads eliminate redundant, high latency roundtrips to Global Memory.
+* **Scale Capability:** Dropped the sequential CPU baseline entirely because it stalls indefinitely at this scale. This optimized implementation handles massive scales, benchmarked at **16,384 × 16,384** matrix dimensions on a single commodity GPU.
 
 ---
 
